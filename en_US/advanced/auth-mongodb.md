@@ -150,7 +150,7 @@ During authentication, EMQ X Broker will use the current client information to p
 MongoDB supported configuration collection name, password field, and selector command
 
 ```bash
-# etc/plugins/emqx_auth_mongo.conf
+# /etc/emqx/plugins/emqx_auth_mongo.conf
 
 auth.mongo.auth_query.collection = mqtt_user
 
